@@ -1,0 +1,57 @@
+.header {
+    height: 80px;
+    /* border-bottom: 1px solid #cbcdce; */
+}
+
+.align-header {
+    height: 80px;
+    width: auto;
+    position: relative;
+    flex-direction: row;
+}
+
+.logo img, .language svg {
+    height: 30px;
+    position: absolute;
+    margin: auto 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.language {
+    float: right;
+    cursor: pointer;
+    display: block;
+    margin: auto 20px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+}
+
+.user {
+    float: right;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    width: 115px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 0 6px;
+}
+
+.user span {
+    align-self: center;
+    flex: 1 1 0%;
+    line-height: 12px;
+    padding: 8px 0 10px 0;
+}

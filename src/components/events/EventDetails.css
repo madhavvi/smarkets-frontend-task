@@ -1,0 +1,17 @@
+.details-grid {
+    margin-top: 50px;
+}
+
+.card-grid {
+    color: #ffffffb3 !important;
+    width: 50%;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #000 !important;
+    margin: auto;
+    min-width: 620px;
+    border-radius: 5px !important;
+}
+
+.details-grid p {
+    margin: 15px 0;
+}

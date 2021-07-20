@@ -1,0 +1,68 @@
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 15px 10px;
+}
+
+.grid-item {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.event-block {
+    background-color: black;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.MuiLink-underlineHover:hover {
+    text-decoration: none !important;
+}
+
+.event-name {
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    color: #ffffffb3;
+    cursor: pointer;
+}
+
+.event-desc p {
+    color: #888;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.event-status, .event-date {
+    display: flex;
+    justify-content: center;
+}
+
+.event-date {
+    justify-content: left !important;
+    padding: 0 25px;
+}
+
+.event-date p {
+    color: #ffffffd9;
+    font-size: 14px;
+    justify-content: center !important;
+}
+
+.event-date p, .event-status p {
+    justify-content: center;
+    float: right;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.status {
+    color: rgb(43, 147, 43);
+    font-size: 11px;
+}
